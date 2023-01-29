@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    background-color: #fff;
 }
 
 /* upper side of the site */
@@ -128,4 +129,34 @@ button {
     font-size: 15px;
     color: #5a5a5a;
     text-align: center;
+}
+
+/* this is the part where the quote goes */
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.quote {
+    width: 900px;
+}
+
+.actual-quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.author {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    text-align: right;
 }

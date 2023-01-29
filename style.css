@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     flex: 1;
     background-color: #fff;
+    margin: 0;
 }
 
 /* upper side of the site */
@@ -190,5 +191,19 @@ button {
 
 .container button {
     border: 1px solid #fff;
+    padding: 10px;
+}
+
+/* this is the footer section */
+
+.footer {
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.copyright {
+    color:#e5e7eb;
     padding: 10px;
 }
